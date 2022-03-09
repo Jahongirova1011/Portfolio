@@ -1,0 +1,382 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  background-color: #525e65;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container {
+  width: 100%;
+  max-width: 1060px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header h1 {
+  color: burlywood;
+  text-align: center;
+  display: inline-block;
+  margin-right: 400px;
+}
+li {
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+}
+.nav-item a {
+  text-decoration: none;
+  color: burlywood;
+  font-size: 20px;
+}
+.nav ul .active {
+  border-bottom: 4px solid #73cca8;
+  padding-top: 4px;
+  line-height: 40px;
+}
+.nav-item a:hover {
+  border-bottom: 4px solid #73cca8;
+  color: #73cca8;
+}
+main {
+  flex-grow: 1;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  background-color: #2b3033;
+}
+
+.main-content2 {
+  background-color: #2b3033;
+}
+
+.document-view {
+  width: 100%;
+  height: 80vh;
+}
+
+.main-content__container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+.introduce-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.my-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px 0 rgb(0 0 0 / 15%);
+}
+img {
+  border-style: none;
+}
+.who-am-i {
+  margin-left: 40px;
+}
+div {
+  display: block;
+}
+.who-am-i h1 {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 400;
+  color: #dbe8d4;
+  letter-spacing: 2px;
+  font-family: "Titillium Web", sans-serif;
+}
+.who-am-i h1,
+.who-am-i h2 {
+  text-transform: capitalize;
+  margin: 0;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.who-am-i h2 {
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #a4afa4;
+}
+.social-links {
+  margin-top: 10px;
+}
+.social-links a:not(:last-child) {
+  display: inline-block;
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  background-color: transparent;
+}
+.social-links a i {
+  font-size: 24px;
+  color: #a4afa4;
+}
+.fab,
+.far {
+  font-weight: 400;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.little-description p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 1.5px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.btn-group .blog-link {
+  background-color: #1e90ff;
+  color: #fff;
+}
+.btn-group a {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+  border: 1px solid #1e90ff;
+  box-shadow: 5px 5px 10px 0 rgb(0 0 0 / 15%);
+  border-radius: 6px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  background-color: transparent;
+}
+.btn-group .portfolio-link {
+  color: #1e90ff;
+  margin-left: 15px;
+}
+footer {
+  display: block;
+}
+.site-footer .circle {
+  color: #dbe8d4;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  background-color: #2e3445;
+}
+
+.resume-img {
+  display: none;
+}
+
+@media screen and (max-width: 595px) {
+  .resume-img {
+    display: block;
+    width: 100%;
+  }
+
+  .document-view {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-nav ul .nav-item a {
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .nav ul {
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  .site-nav {
+    justify-content: space-around;
+  }
+
+  .introduce-row {
+    flex-direction: column;
+  }
+
+  .my-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .introduce-row {
+    justify-content: center;
+  }
+
+  .who-am-i {
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .who-am-i h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .who-am-i h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .social-links {
+    margin-top: 0;
+  }
+
+  .social-links a i {
+    font-size: 22px;
+  }
+
+  .little-description {
+    padding-top: 15px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .little-description p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn-group a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .site-nav ul .nav-item:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  .site-nav ul {
+    flex-wrap: wrap;
+  }
+
+  .site-nav ul .nav-item a {
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  .my-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .who-am-i h1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .who-am-i h2 {
+    font-size: 18px;
+  }
+
+  .social-links a i {
+    font-size: 20px;
+  }
+
+  .little-description p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .btn-group a {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
